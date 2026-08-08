@@ -1,0 +1,359 @@
+{
+  "instance": "STEI-ITB (36 kelas / 11 ruang / 25 slot)",
+  "seed": 42,
+  "initial_objective": 2015,
+  "initial_counts": {
+    "room_clash": 1,
+    "lecturer_clash": 0,
+    "group_clash": 4,
+    "capacity": 13,
+    "room_type": 6,
+    "lecturer_unavailable": 10,
+    "late_slot": 6,
+    "lecturer_overload": 1,
+    "group_overload": 3,
+    "group_gap": 7,
+    "lecturer_gap": 8,
+    "room_waste": 66,
+    "lab_misuse": 6
+  },
+  "results": [
+    {
+      "name": "Hill-Climbing (Steepest-Ascent)",
+      "final_objective": 18,
+      "feasible": true,
+      "hard_violations": 0,
+      "soft_penalty": 18,
+      "counts": {
+        "room_clash": 0,
+        "lecturer_clash": 0,
+        "group_clash": 0,
+        "capacity": 0,
+        "room_type": 0,
+        "lecturer_unavailable": 0,
+        "late_slot": 0,
+        "lecturer_overload": 0,
+        "group_overload": 0,
+        "group_gap": 0,
+        "lecturer_gap": 0,
+        "room_waste": 18,
+        "lab_misuse": 0
+      },
+      "iterations": 41,
+      "evaluations": 77866,
+      "duration_s": 3.427,
+      "extras": {
+        "berhenti_karena": "local optimum"
+      }
+    },
+    {
+      "name": "Hill-Climbing (Sideways Move)",
+      "final_objective": 16,
+      "feasible": true,
+      "hard_violations": 0,
+      "soft_penalty": 16,
+      "counts": {
+        "room_clash": 0,
+        "lecturer_clash": 0,
+        "group_clash": 0,
+        "capacity": 0,
+        "room_type": 0,
+        "lecturer_unavailable": 0,
+        "late_slot": 0,
+        "lecturer_overload": 0,
+        "group_overload": 0,
+        "group_gap": 0,
+        "lecturer_gap": 0,
+        "room_waste": 16,
+        "lab_misuse": 0
+      },
+      "iterations": 83,
+      "evaluations": 155734,
+      "duration_s": 6.942,
+      "extras": {
+        "sideways_terpakai": 40,
+        "batas_sideways": 40
+      }
+    },
+    {
+      "name": "Hill-Climbing (Stochastic)",
+      "final_objective": 75,
+      "feasible": false,
+      "hard_violations": 1,
+      "soft_penalty": 15,
+      "counts": {
+        "room_clash": 0,
+        "lecturer_clash": 0,
+        "group_clash": 0,
+        "capacity": 1,
+        "room_type": 0,
+        "lecturer_unavailable": 0,
+        "late_slot": 0,
+        "lecturer_overload": 0,
+        "group_overload": 0,
+        "group_gap": 0,
+        "lecturer_gap": 0,
+        "room_waste": 15,
+        "lab_misuse": 0
+      },
+      "iterations": 30000,
+      "evaluations": 30001,
+      "duration_s": 1.39,
+      "extras": {
+        "move_diterima": 89,
+        "rasio_penerimaan": 0.003
+      }
+    },
+    {
+      "name": "Hill-Climbing (Random Restart, 5x)",
+      "final_objective": 16,
+      "feasible": true,
+      "hard_violations": 0,
+      "soft_penalty": 16,
+      "counts": {
+        "room_clash": 0,
+        "lecturer_clash": 0,
+        "group_clash": 0,
+        "capacity": 0,
+        "room_type": 0,
+        "lecturer_unavailable": 0,
+        "late_slot": 0,
+        "lecturer_overload": 0,
+        "group_overload": 0,
+        "group_gap": 0,
+        "lecturer_gap": 0,
+        "room_waste": 16,
+        "lab_misuse": 0
+      },
+      "iterations": 216,
+      "evaluations": 409728,
+      "duration_s": 18.336,
+      "extras": {
+        "jumlah_restart": 5,
+        "objective_per_restart": [
+          18,
+          16,
+          18,
+          77,
+          75
+        ],
+        "restart_terbaik": 2,
+        "iterasi_per_restart": 43.2
+      }
+    },
+    {
+      "name": "Simulated Annealing",
+      "final_objective": 16,
+      "feasible": true,
+      "hard_violations": 0,
+      "soft_penalty": 16,
+      "counts": {
+        "room_clash": 0,
+        "lecturer_clash": 0,
+        "group_clash": 0,
+        "capacity": 0,
+        "room_type": 0,
+        "lecturer_unavailable": 0,
+        "late_slot": 0,
+        "lecturer_overload": 0,
+        "group_overload": 0,
+        "group_gap": 0,
+        "lecturer_gap": 0,
+        "room_waste": 16,
+        "lab_misuse": 0
+      },
+      "iterations": 36669,
+      "evaluations": 36670,
+      "duration_s": 1.718,
+      "extras": {
+        "T0": 60.0,
+        "alpha": 0.9997,
+        "T_akhir": 0.001,
+        "move_memburuk_diterima": 1493,
+        "move_memburuk_ditolak": 30578,
+        "stuck_di_suhu_rendah": 21062
+      }
+    },
+    {
+      "name": "Genetic Algorithm",
+      "final_objective": 31,
+      "feasible": true,
+      "hard_violations": 0,
+      "soft_penalty": 31,
+      "counts": {
+        "room_clash": 0,
+        "lecturer_clash": 0,
+        "group_clash": 0,
+        "capacity": 0,
+        "room_type": 0,
+        "lecturer_unavailable": 0,
+        "late_slot": 3,
+        "lecturer_overload": 0,
+        "group_overload": 0,
+        "group_gap": 0,
+        "lecturer_gap": 1,
+        "room_waste": 20,
+        "lab_misuse": 0
+      },
+      "iterations": 400,
+      "evaluations": 32080,
+      "duration_s": 1.5,
+      "extras": {
+        "ukuran_populasi": 80,
+        "generasi": 400,
+        "crossover": "uniform",
+        "crossover_rate": 0.9,
+        "mutation_rate": 0.2,
+        "elitism": 2,
+        "tournament_k": 3
+      }
+    }
+  ],
+  "best": "Hill-Climbing (Sideways Move)",
+  "best_state": [
+    [
+      16,
+      1
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      21,
+      1
+    ],
+    [
+      20,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      21,
+      8
+    ],
+    [
+      13,
+      2
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      18,
+      8
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      22,
+      5
+    ],
+    [
+      21,
+      6
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      20,
+      8
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      22,
+      7
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      21,
+      7
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      16,
+      9
+    ],
+    [
+      13,
+      4
+    ],
+    [
+      17,
+      10
+    ],
+    [
+      17,
+      7
+    ],
+    [
+      18,
+      3
+    ],
+    [
+      17,
+      0
+    ]
+  ]
+}

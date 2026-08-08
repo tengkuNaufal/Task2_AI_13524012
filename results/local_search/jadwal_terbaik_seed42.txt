@@ -1,0 +1,77 @@
+Jam          Senin                 Selasa                Rabu                  Kamis                 Jumat                 
+---------------------------------------------------------------------------------------------------------------------------
+07.00-09.00  IF3170@7602           -                     STI2210@7612          -                     IF2123@7602
+             -                     -                     -                     -                     IF3170-P@Lab-Dasar
+
+09.00-11.00  IF2130@7602           IF2110-P@Lab-Dasar    IF3110@Lab-Dasar      IF2110@7602           IF2120@7602
+             IF2240@7603           IF2220@7603           STI2220@7612          EL2140-P@Lab-IRK      IF2211-P@Lab-Dasar
+             -                     -                     -                     -                     IF3140@7611
+             -                     -                     -                     -                     STI2230@7612
+
+11.00-13.00  IF2124@7602           IF2130-P@Lab-Dasar    IF2210-P@Lab-Dasar    IF2230@7602           IF3130@7610
+             IF3210@7611           IF2211@7603           IF3260@Lab-IRK        EL3140@Lab-Grafika    STI2120@7612
+             IF3230@7610           STI2110@9010          -                     EL3240@7612           -
+             -                     -                     -                     KU2071@7502           -
+
+13.00-15.00  -                     STI2130@9010          IF2210@7603           IF2240-P@Lab-Dasar    -
+             -                     EL2140@9009           EL2240@9010           MA2071@9009           -
+
+15.00-17.00  -                     -                     -                     -                     -
+
+
+Kode       Mata Kuliah                            Dosen                  Hari     Jam          Ruang         Mhs  Kap
+---------------------------------------------------------------------------------------------------------------------
+IF3170     Inteligensi Buatan                     Dr. Indira Puspita     Senin    07.00-09.00  7602           88  100
+IF2130     Organisasi dan Arsitektur Komputer     Dr. Dimas Kurniawan    Senin    09.00-11.00  7602           88  100
+IF2240     Basis Data                             Dr. Gita Rahmawati     Senin    09.00-11.00  7603           92  100
+IF2124     Teori Bahasa Formal dan Otomata        Dr. Citra Handayani    Senin    11.00-13.00  7602           90  100
+IF3230     Sistem Paralel dan Terdistribusi       Dr. Joko Susilo        Senin    11.00-13.00  7610           46   60
+IF3210     Rekayasa Perangkat Lunak               Dr. Hadi Santosa       Senin    11.00-13.00  7611           54   60
+IF2220     Probabilitas dan Statistika            Dr. Fajar Nugroho      Selasa   09.00-11.00  7603           90  100
+IF2110-P   Praktikum Algoritma dan Struktur Data  Dr. Adiwijaya          Selasa   09.00-11.00  Lab-Dasar      48   60
+IF2211     Strategi Algoritma                     Dr. Citra Handayani    Selasa   11.00-13.00  7603           94  100
+STI2110    Sistem dan Teknologi Informasi         Dr. Elvira Setiawan    Selasa   11.00-13.00  9010           70   80
+IF2130-P   Praktikum Organisasi Komputer          Dr. Dimas Kurniawan    Selasa   11.00-13.00  Lab-Dasar      44   60
+EL2140     Sistem Digital                         Dr. Dimas Kurniawan    Selasa   13.00-15.00  9009           76   80
+STI2130    Analisis Proses Bisnis                 Dr. Gita Rahmawati     Selasa   13.00-15.00  9010           68   80
+STI2210    Manajemen Proyek TI                    Dr. Hadi Santosa       Rabu     07.00-09.00  7612           34   40
+STI2220    Interaksi Manusia dan Komputer         Dr. Indira Puspita     Rabu     09.00-11.00  7612           34   40
+IF3110     Pengembangan Aplikasi Web              Dr. Hadi Santosa       Rabu     09.00-11.00  Lab-Dasar      52   60
+IF2210-P   Praktikum PBO                          Dr. Elvira Setiawan    Rabu     11.00-13.00  Lab-Dasar      47   60
+IF3260     Grafika Komputer                       Dr. Joko Susilo        Rabu     11.00-13.00  Lab-IRK        38   40
+IF2210     Pemrograman Berorientasi Objek         Dr. Elvira Setiawan    Rabu     13.00-15.00  7603           94  100
+EL2240     Sinyal dan Sistem                      Dr. Bagus Priambodo    Rabu     13.00-15.00  9010           74   80
+IF2110     Algoritma dan Struktur Data            Dr. Adiwijaya          Kamis    09.00-11.00  7602           96  100
+EL2140-P   Praktikum Sistem Digital               Dr. Dimas Kurniawan    Kamis    09.00-11.00  Lab-IRK        38   40
+KU2071     Pancasila dan Kewarganegaraan          Dr. Adiwijaya          Kamis    11.00-13.00  7502          110  120
+IF2230     Sistem Operasi                         Dr. Dimas Kurniawan    Kamis    11.00-13.00  7602           92  100
+EL3240     Elektronika Digital Lanjut             Dr. Fajar Nugroho      Kamis    11.00-13.00  7612           34   40
+EL3140     Sistem Mikroprosesor                   Dr. Joko Susilo        Kamis    11.00-13.00  Lab-Grafika    36   40
+MA2071     Matematika Teknik                      Dr. Bagus Priambodo    Kamis    13.00-15.00  9009           72   80
+IF2240-P   Praktikum Basis Data                   Dr. Gita Rahmawati     Kamis    13.00-15.00  Lab-Dasar      46   60
+IF2123     Aljabar Linier dan Geometri            Dr. Bagus Priambodo    Jumat    07.00-09.00  7602           92  100
+IF3170-P   Praktikum Inteligensi Buatan           Dr. Indira Puspita     Jumat    07.00-09.00  Lab-Dasar      44   60
+IF2120     Matematika Diskrit                     Dr. Bagus Priambodo    Jumat    09.00-11.00  7602           96  100
+IF3140     Manajemen Basis Data                   Dr. Gita Rahmawati     Jumat    09.00-11.00  7611           48   60
+STI2230    Keamanan Informasi                     Dr. Joko Susilo        Jumat    09.00-11.00  7612           32   40
+IF2211-P   Praktikum Strategi Algoritma           Dr. Citra Handayani    Jumat    09.00-11.00  Lab-Dasar      47   60
+IF3130     Jaringan Komputer                      Dr. Dimas Kurniawan    Jumat    11.00-13.00  7610           50   60
+STI2120    Sistem Informasi Perusahaan            Dr. Fajar Nugroho      Jumat    11.00-13.00  7612           36   40
+
+Objective f(X) = 16
+  Hard constraints (bobot besar):
+    room_clash                0 x 100  =      0
+    lecturer_clash            0 x 100  =      0
+    group_clash               0 x 100  =      0
+    capacity                  0 x 60   =      0
+    room_type                 0 x 80   =      0
+  Soft constraints:
+    lecturer_unavailable      0 x 10   =      0
+    late_slot                 0 x 3    =      0
+    lecturer_overload         0 x 5    =      0
+    group_overload            0 x 4    =      0
+    group_gap                 0 x 2    =      0
+    lecturer_gap              0 x 2    =      0
+    room_waste               16 x 1    =     16
+    lab_misuse                0 x 4    =      0
+  -> total pelanggaran keras = 0 (FEASIBLE), penalti lunak = 16

@@ -1,0 +1,17 @@
+`-- previous_loan_defaults_on_file <= 0.5   (n=28800, imp=0.7642)
+    |-- [ya]  loan_to_income <= 0.2472   (n=14171, imp=0.9932)
+    |   |-- [ya]  loan_int_rate <= 14   (n=11390, imp=0.9311)
+    |   |   |-- [ya]  person_income <= 2.46e+04   (n=8749, imp=0.7776)
+    |   |   |   |-- [ya]  loan_to_income <= 0.1207   (n=443, imp=0.4740)
+    |   |   |   `-- [tdk] loan_int_rate <= 11   (n=8306, imp=0.7099)
+    |   |   `-- [tdk] person_home_ownership=RENT <= 0.5   (n=2641, imp=0.8354)
+    |   |       |-- [ya]  person_home_ownership=OWN <= 0.5   (n=982, imp=0.9648)
+    |   |       `-- [tdk] loan_int_rate <= 14.39   (n=1659, imp=0.7062)
+    |   `-- [tdk] person_home_ownership=RENT <= 0.5   (n=2781, imp=0.5255)
+    |       |-- [ya]  person_income <= 2.513e+04   (n=601, imp=0.9956)
+    |       |   |-- [ya]  LEAF  n=68 p(1)=1.000 -> kelas 1
+    |       |   `-- [tdk] loan_int_rate <= 13.98   (n=533, imp=0.9662)
+    |       `-- [tdk] loan_to_income <= 0.2518   (n=2180, imp=0.0274)
+    |           |-- [ya]  LEAF  n=107 p(1)=0.944 -> kelas 1
+    |           `-- [tdk] LEAF  n=2073 p(1)=1.000 -> kelas 1
+    `-- [tdk] LEAF  n=14629 p(1)=0.000 -> kelas 0
